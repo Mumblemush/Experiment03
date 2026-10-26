@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 自定义登录对话框布局：橙色标题栏 + 用户名/密码输入框 + Cancel/Sign in 按钮 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <!-- 顶部橙色标题栏 -->
+    <TextView
+        android:id="@+id/tv_dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="#FF9800"
+        android:gravity="center"
+        android:text="ANDROID APP"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <!-- 用户名输入框（蓝色下划线） -->
+    <EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:maxLines="1"
+        android:backgroundTint="#2196F3"
+        android:textColorHint="#9E9E9E"
+        android:textSize="16sp"/>
+
+    <!-- 密码输入框（灰色下划线） -->
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:backgroundTint="#9E9E9E"
+        android:textColorHint="#9E9E9E"
+        android:textSize="16sp"/>
+
+    <!-- 底部按钮行：Cancel | Sign in -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:backgroundTint="#9E9E9E"
+            android:text="Cancel"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/btn_signin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="16dp"
+            android:backgroundTint="#2196F3"
+            android:text="Sign in"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+</LinearLayout>

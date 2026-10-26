@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F6F8">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#3F51B5"
+        android:gravity="center"
+        android:text="2. 自定义布局的 AlertDialog"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:gravity="center"
+        android:text="点击下方按钮弹出自定义登录对话框（AlertDialog.Builder.setView 添加布局）"
+        android:textSize="15sp"
+        android:textColor="#555555"/>
+
+    <Button
+        android:id="@+id/btn_show_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="弹出登录对话框"
+        android:textSize="16sp"/>
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 列表每一行的布局：左边名字，右边图片 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:descendantFocusability="blocksDescendants">
+
+    <!-- 左边：动物名字 -->
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="20sp"/>
+
+    <!-- 右边：动物图片，80×80 -->
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="80dp"
+        android:layout_height="80dp"/>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 实验三 · 第 4 部分：ActionMode 上下文操作模式菜单（勾选完成 + 删除） -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 勾选（完成操作） -->
+    <item
+        android:id="@+id/action_done"
+        android:title="完成"
+        android:showAsAction="always" />
+
+    <!-- 删除 -->
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:title="删除"
+        android:showAsAction="always" />
+
+</menu>

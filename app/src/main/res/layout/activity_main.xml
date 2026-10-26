@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 垂直 LinearLayout：标题栏 + ListView + 底部按钮 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 顶部标题栏 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="#3F51B5"
+        android:text="1. ListView + SimpleAdapter"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:gravity="center"/>
+
+    <!-- 动物列表 -->
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!-- 底部 Elephant 按钮（灰色底+黄色边框） -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_elephant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:background="@drawable/btn_gray_yellow"
+        android:text="Elephant"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:stateListAnimator="@null"/>
+
+</LinearLayout>

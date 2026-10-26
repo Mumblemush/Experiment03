@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 实验三 · 第 3 部分：使用 XML 定义菜单（长按测试文本弹出上下文菜单） -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 字体大小：子菜单包含 小/中/大 -->
+    <item
+        android:id="@+id/menu_font_size"
+        android:title="字体大小">
+        <menu>
+            <item
+                android:id="@+id/font_small"
+                android:title="小" />
+            <item
+                android:id="@+id/font_middle"
+                android:title="中" />
+            <item
+                android:id="@+id/font_large"
+                android:title="大" />
+        </menu>
+    </item>
+
+    <!-- 普通菜单项：点击后 Toast 提示 -->
+    <item
+        android:id="@+id/menu_normal"
+        android:title="普通菜单项" />
+
+    <!-- 字体颜色：子菜单包含 红色/黑色 -->
+    <item
+        android:id="@+id/menu_font_color"
+        android:title="字体颜色">
+        <menu>
+            <item
+                android:id="@+id/font_red"
+                android:title="红色" />
+            <item
+                android:id="@+id/font_black"
+                android:title="黑色" />
+        </menu>
+    </item>
+
+</menu>
