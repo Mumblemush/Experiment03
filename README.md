@@ -51,19 +51,18 @@ Experiment03
 
 ## 运行效果图
 
-![实验导航主页](images/01_main_nav.png)
+<p align="center">
+  <img src="images/01_main_nav.png" width="240" alt="实验导航主页"/>
+  <img src="images/02_listview.png" width="240" alt="ListView 动物列表"/>
+  <img src="images/03_alert_dialog.png" width="240" alt="自定义布局 AlertDialog 登录框"/>
+  <img src="images/04_context_menu.png" width="240" alt="XML 选项菜单"/>
+</p>
 
-![ListView 动物列表](images/02_listview.png)
-
-![自定义布局 AlertDialog 登录框](images/03_alert_dialog.png)
-
-![XML 选项菜单（字体大小/普通菜单项/字体颜色）](images/04_context_menu.png)
-
-![ActionMode 多选上下文操作模式（1 selected）](images/05_actionmode.png)
-
-![RecyclerView 动物列表](images/06_recyclerview.png)
-
-![RecyclerView 增加一条记录后实时更新](images/07_recyclerview_add.png)
+<p align="center">
+  <img src="images/05_actionmode.png" width="240" alt="ActionMode 多选上下文操作模式"/>
+  <img src="images/06_recyclerview.png" width="240" alt="RecyclerView 动物列表"/>
+  <img src="images/07_recyclerview_add.png" width="240" alt="RecyclerView 增加记录后实时更新"/>
+</p>
 
 ## 运行步骤
 
